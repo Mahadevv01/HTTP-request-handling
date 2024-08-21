@@ -1,0 +1,20 @@
+<div class="container">
+    <div *ngIf="error" class="error">
+      <p>{{ error }}</p>
+    </div>
+    <div class="image-container">
+        <img src="./src/assets/angular-animations-a-beginners-guide-20240423063945137.jpg" alt="Angular Animation" class="left-image">
+      </div>
+      
+  
+    <div *ngIf="!error">
+      <h2>Data Display</h2>
+      <ul class="data-list">
+        <li *ngFor="let item of data | orderBy: 'title'" class="data-item">
+          <h3 class="data-title">{{ item.title }}</h3>
+          <p class="data-body">{{ item.body }}</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+  

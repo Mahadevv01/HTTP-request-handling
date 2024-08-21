@@ -1,0 +1,8 @@
+.left-image {
+    max-width: 150px; /* Adjust the size as needed */
+    height: auto;
+    display: block; /* Ensure the image is displayed */
+    margin-left: 0; /* Align to the left */
+    margin-top: 20px; /* Add some space at the top */
+  }
+  
