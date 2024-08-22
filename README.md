@@ -90,13 +90,20 @@ Follow these steps to set up and run the application:
 ### 1. Official Angular Documentation
    - [Angular - Getting Started](https://angular.io/start)
    - [Angular HttpClient Guide](https://angular.io/guide/http)
+     
 
 ### 2. Video Tutorials
    - [Angular Crash Course](https://www.youtube.com/watch?v=3qBXWUpoPHo)
    - [HTTP Requests in Angular](https://www.youtube.com/watch?v=OEv1nI1cGyc)
 
+     
+
 ### 3. Other Useful Links
    - [RxJS Documentation](https://rxjs.dev/guide/overview)
+
+
+
+
 
 ## Conclusion
 
